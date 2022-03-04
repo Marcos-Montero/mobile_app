@@ -2,6 +2,10 @@
     width: 100%;
     height:  100%;
 }
+.wrapper {
+    position: relative;
+    
+}
 .player {
     width: 62px;
     height: 62px;
@@ -14,5 +18,7 @@
     position: absolute;
     inset: 0;
     margin: auto;
-
+}
+.hidden {
+    opacity: 0;
 }
